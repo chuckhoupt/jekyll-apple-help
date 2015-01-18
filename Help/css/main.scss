@@ -57,6 +57,12 @@ $on-laptop:        800px;
 	img { height: 20em; width: 20em; }
 }
 
+html, body {
+    height: 100%;
+    width: 100%;
+    overflow: auto;
+}
+
 // Match anchor styles to Apple
 a {
 	&:hover {
@@ -91,7 +97,9 @@ nav ul {
 }
 
 article {
-	position: absolute;
-	top: 0; bottom: 0; left: 16rem;
+	position: fixed;
+    top: 0; bottom: 0; left: 17rem; right: 0;
+    overflow-y: auto;
+
 	padding-top: 1em;
 }
