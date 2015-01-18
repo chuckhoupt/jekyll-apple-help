@@ -1,0 +1,23 @@
+# Site settings
+title: JekyllHelp Help
+relative_permalinks: true
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://yourdomain.com" # the base hostname & protocol for your site
+
+# Build settings
+markdown: kramdown
+
+collections:
+  help_topics:
+    output: true
+    permalink: :path/index.html
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "help_topics"
+    values:
+      layout: "help"
+
+exclude: ['Makefile', 'jekyll-server.command']

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+	
+	<head>
+		<meta charset="utf-8"/>
+		<meta name="viewport" content="width=device-width initial-scale=1"/>
+
+		<title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+		{% if page.appletitle %}<meta name="AppleTitle" content="{{ page.appletitle }}"/>{% endif %}
+		
+		{% if page.description %}<meta name="description" content="{{ page.description }}"/>{% endif %}
+		
+		<link rel="stylesheet" href="{{ page.rel_root }}/css/main.css"/>
+	</head>
+	
+	<body>
+		
+		<nav>
+		<ul>
+			{% for topic in site.help_topics %}
+			<li>
+				<a href="{{ page.rel_root }}{{ topic.url }}"> {{ topic.title }}</a>
+			</li>
+			{% endfor %}
+		</ul>
+		</nav>
+		
+		<div class="page-content">
+			<article class="wrapper">
+				{{ content }}
+			</article>
+		</div>
+		
+		{% include footer.html %}
+		
+	</body>
+	
+</html>
