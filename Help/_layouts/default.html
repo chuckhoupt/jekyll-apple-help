@@ -19,8 +19,8 @@
 		<nav>
 		<ul>
 			{% for topic in site.help_topics %}
-			<li>
-				<a href="{{ page.rel_root }}{{ topic.url }}"> {{ topic.title }}</a>
+			<li {% if page.url == topic.url %}class="active"{% endif %}>
+				<a href="{{ page.rel_root }}{{ topic.url }}">{{ topic.title }}</a>
 			</li>
 			{% endfor %}
 		</ul>
