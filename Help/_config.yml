@@ -19,5 +19,6 @@ defaults:
       type: "help_topics"
     values:
       layout: "help"
+      order: 0
 
 exclude: ['Makefile', 'jekyll-server.command']

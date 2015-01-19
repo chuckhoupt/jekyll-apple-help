@@ -18,7 +18,8 @@
 		
 		<nav>
 		<ul>
-			{% for topic in site.help_topics %}
+			{% assign sorted_topics = site.help_topics | sort: "order" %}
+			{% for topic in sorted_topics %}
 			<li {% if page.url == topic.url %}class="active"{% endif %}>
 				<a href="{{ page.rel_root }}{{ topic.url }}">{{ topic.title }}</a>
 			</li>
