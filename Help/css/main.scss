@@ -71,9 +71,14 @@ a {
 }
 
 nav a {
+	display: block;
+	padding: 1em 0em 1em 1em;
 	color: $text-color;
 	&:hover {
 		text-decoration: none;
+	}
+	&:visited {
+		color: $text-color;
 	}
 }
 
@@ -93,7 +98,6 @@ nav ul {
 	margin: 0;
 	li {
 		line-height: 1.3;
-		padding: 1em 0em 1em 1em;
 		&.active {
 			background-color: $grey-color-light;
 		}
