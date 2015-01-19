@@ -4,7 +4,7 @@ set -eux
 
 BASE=$(dirname "$0")
 SITE=$(basename "$BASE")
-URL=http://0.0.0.0:4000/
+URL=http://127.0.0.1:4000/
 SITEROOT=_site
 
 cd "$BASE"
@@ -19,8 +19,5 @@ then
 else
 	echo "NOTE: Install fswatch (e.g. brew install fswatch) to allow auto-refresh"
 fi
-
-# Open the page after a delay
-sleep 10 ; open -a Safari.app "$URL" &
 
 jekyll serve --watch
