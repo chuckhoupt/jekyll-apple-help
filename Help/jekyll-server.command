@@ -20,4 +20,7 @@ else
 	echo "NOTE: Install fswatch (e.g. brew install fswatch) to allow auto-refresh"
 fi
 
+# Open a window, if one isn't found
+osascript -e "tell application \"Safari\" to if ((documents whose URL starts with \"$URL\") = {}) then open location \"$URL\""
+
 jekyll serve --watch
