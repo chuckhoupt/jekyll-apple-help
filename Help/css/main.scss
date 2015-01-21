@@ -70,18 +70,6 @@ a {
 	}
 }
 
-nav a {
-	display: block;
-	padding: 1em 0em 1em 1em;
-	color: $text-color;
-	&:hover {
-		text-decoration: none;
-	}
-	&:visited {
-		color: $text-color;
-	}
-}
-
 // Match navigation and article to Apple
 nav {
 	position: fixed;
@@ -102,6 +90,22 @@ nav ul {
 			background-color: $grey-color-light;
 		}
 	}
+}
+
+nav ul a {
+	display: block;
+	padding: 1em 0em 1em 1em;
+	color: $text-color;
+	&:hover {
+		text-decoration: none;
+	}
+	&:visited {
+		color: $text-color;
+	}
+}
+
+nav ul ul a {
+	padding-left: 2em;
 }
 
 article {
