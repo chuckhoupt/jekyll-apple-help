@@ -6,16 +6,16 @@
 
 
 // Our variables
-$base-font-family: HelveticaNeue-Light, 'Helvetica Neue Light', 'Helvetica Neue', Arial, Helvetica, sans-serif;
-$base-font-size:   14px;
+$base-font-family: HelveticaNeue, 'Helvetica Neue', Helvetica, sans-serif;
+$base-font-size:   12px;
 $small-font-size:  $base-font-size * 0.875;
 $base-line-height: 1.5;
 
 $spacing-unit:     30px;
 
-$text-color:       #4b4b4b;
-$background-color: #f9fafb;
-$brand-color:      #2a7ae2;
+$text-color:       #484848;
+$background-color: #ffffff;
+$brand-color:      $text-color;
 
 $grey-color:       #828282;
 $grey-color-light: lighten($grey-color, 40%);
@@ -47,7 +47,6 @@ $on-laptop:        800px;
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
         "base",
-        "layout",
         "syntax-highlighting"
 ;
 
@@ -61,6 +60,8 @@ html, body {
     height: 100%;
     width: 100%;
     overflow: auto;
+	-webkit-font-smoothing: antialiased;
+	font-weight: normal;
 }
 
 // Match anchor styles to Apple
@@ -70,22 +71,28 @@ a {
 	}
 }
 
-// Match navigation and article to Apple
-nav {
+// Match header and main to Apple
+header {
 	position: fixed;
-	top: 0;	left: 0; bottom: 0;	width: 17em;
+	top: 0;	left: 0; bottom: 0;	width: 210px;
 	overflow-y: auto;
 	
-	font-size: $small-font-size;
-	padding-top: 0.5em;
 	border-right: 1px solid $grey-color-light;
+}
+
+main {
+	position: fixed;
+	top: 0; bottom: 0; left: 210px; right: 0;
+	overflow-y: auto;
+	
 }
 
 nav ul {
     list-style: none;
 	margin: 0;
+	padding-top: 0.5em;
 	li {
-		line-height: 1.3;
+		line-height: 17px;
 		&.active {
 			background-color: $grey-color-light;
 		}
@@ -94,7 +101,7 @@ nav ul {
 
 nav ul a {
 	display: block;
-	padding: 1em 0em 1em 1em;
+	padding: 0.5em 0em 0.5em 1em;
 	color: $text-color;
 	&:hover {
 		text-decoration: none;
@@ -109,11 +116,8 @@ nav ul ul a {
 }
 
 article {
-	position: fixed;
-    top: 0; bottom: 0; left: 17rem; right: 0;
-    overflow-y: auto;
-
-	padding-top: 1em;
+	max-width: 45em;
+	padding: 4em 2em 2em 5em;
 }
 
 table {

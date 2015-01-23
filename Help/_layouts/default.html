@@ -15,33 +15,34 @@
 	</head>
 	
 	<body>
-		
-		<nav>
-			{% assign grouped_topics = site.help_topics | group_by: "category" | sort: "name" %}
+		<header>
+			<nav>
+				{% assign grouped_topics = site.help_topics | group_by: "category" | sort: "name" %}
 
-			<ul>
-			{% for group in grouped_topics %}
-			{% assign sorted_topics = group.items | sort: "order" %}
-			{% if group.name != "" %}<li><a>{{ group.name }}</a><ul>{% endif %}
-				{% for topic in sorted_topics %}
-				<li {% if page.url == topic.url %}class="active"{% endif %}>
-					<a href="{{ page.rel_root }}{{ topic.url }}">{{ topic.title }}</a>
-				</li>
+				<ul>
+				{% for group in grouped_topics %}
+				{% assign sorted_topics = group.items | sort: "order" %}
+				{% if group.name != "" %}<li><a>{{ group.name }}</a><ul>{% endif %}
+					{% for topic in sorted_topics %}
+					<li {% if page.url == topic.url %}class="active"{% endif %}>
+						<a href="{{ page.rel_root }}{{ topic.url }}">{{ topic.title }}</a>
+					</li>
+					{% endfor %}
+				{% if group.name != "" %}</ul></li>{% endif %}
 				{% endfor %}
-			{% if group.name != "" %}</ul></li>{% endif %}
-			{% endfor %}
-			</ul>
+				</ul>
 
-		</nav>
-		
-		<div class="page-content">
-			<article class="wrapper">
+			</nav>
+		</header>
+		<main>
+			<article>
 				{{ content }}
 			</article>
-		</div>
+		</main>
 		
-		{% include footer.html %}
-		
+		<footer>
+			{% include footer.html %}
+		</footer>
 	</body>
 	
 </html>
