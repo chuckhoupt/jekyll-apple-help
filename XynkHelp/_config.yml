@@ -21,4 +21,4 @@ defaults:
       layout: "help"
       order: 0
 
-exclude: ['Makefile', 'jekyll-server.command']
+exclude: ['Makefile', 'jekyll-server.command', 'Info.plist']
