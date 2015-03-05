@@ -25,7 +25,7 @@
 	<key>HPDBookIconPath</key>
 	<string>book-icon.png</string>
 	<key>HPDBookIndexPath</key>
-	<string>$(PROJECT_NAME).helpindex</string>
+	<string>search.helpindex</string>
 	<key>HPDBookTitle</key>
 	<string>$(PROJECT_NAME) Help</string>
 	<key>HPDBookType</key>
