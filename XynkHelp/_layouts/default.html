@@ -1,36 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
-	
 	<head>
 		<meta charset="utf-8"/>
 		<meta name="viewport" content="width=device-width initial-scale=1"/>
-
 		<title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
-
 		{% if page.apple_title %}<meta name="AppleTitle" content="{{ page.apple_title }}"/>{% endif %}
-		
 		{% if page.description %}<meta name="description" content="{{ page.description }}"/>{% endif %}
-
 		{% if page.keywords %}<meta name="keywords" content="{{ page.keywords }}"/>{% endif %}
-		
+		{% if page.robots %}<meta name="robots" content="{{ page.robots }}"/>{% endif %}
 		<link rel="stylesheet" href="{{ page.rel_root }}/css/main.css"/>
 	</head>
 	
 	<body>
 		<header>
+{% comment %}
+Apple Help's hiutil doesn't index text inside NAV elements, however it only applies to immediate text (a bug?).
+Thus, all text inside this NAV section is also tightly wrapped with NAVs to prevent indexing.
+{% endcomment %}
 			<nav>
-				{% assign grouped_topics = site.help_topics | group_by: "category" | sort: "name" %}
+				{% assign grouped_topics = site[page.collection] | group_by: "category" | sort: "name" %}
 
 				<ul>
 				{% for group in grouped_topics %}
 				{% assign sorted_topics = group.items | sort: "order" %}
-				{% if group.name != "" %}<li><a>{{ group.name }}</a><ul>{% endif %}
-					{% for topic in sorted_topics %}
-					<li {% if page.url == topic.url %}class="active"{% endif %}>
-						<a href="{{ page.rel_root }}{{ topic.url }}">{{ topic.title }}</a>
+				{% if group.name != "" %}<li><a><nav>{{ group.name }}</nav></a><ul>{% endif %}
+					{% for topic in sorted_topics %}{% if topic.apple_title == null %}
+					<li{% if page.url == topic.url %} class="active"{% endif %}>
+						<a href="{{ page.rel_root }}{{ topic.url }}"><nav>{{ topic.title }}</nav></a>
 					</li>
-					{% endfor %}
+					{% endif %}{% endfor %}
 				{% if group.name != "" %}</ul></li>{% endif %}
 				{% endfor %}
 				</ul>

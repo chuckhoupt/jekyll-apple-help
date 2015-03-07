@@ -8,15 +8,25 @@ url: "http://yourdomain.com" # the base hostname & protocol for your site
 markdown: kramdown
 
 collections:
-  help_topics:
+  English.lproj:
     output: true
-    permalink: :path/index.html
+  Japanese.lproj:
+    output: true
+  Dutch.lproj:
+    output: true
+  French.lproj:
+    output: true
+  Italian.lproj:
+    output: true
+  German.lproj:
+    output: true
+  Spanish.lproj:
+    output: true
 
 defaults:
   -
     scope:
       path: ""
-      type: "help_topics"
     values:
       layout: "help"
       order: 0
