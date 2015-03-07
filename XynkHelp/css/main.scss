@@ -116,6 +116,13 @@ nav ul {
 			background-color: $grey-color-light;
 		}
 	}
+    max-height: 10000px;
+	overflow: hidden;
+	transition: max-height 0.3s ease-in-out;
+	.collapsed {
+		max-height: 0;
+
+	}
 }
 
 nav ul a {

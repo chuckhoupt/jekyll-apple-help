@@ -24,7 +24,7 @@ Thus, all text inside this NAV section is also tightly wrapped with NAVs to prev
 				<ul>
 				{% for group in grouped_topics %}
 				{% assign sorted_topics = group.items | sort: "order" %}
-				{% if group.name != "" %}<li><a><nav>{{ group.name }}</nav></a><ul>{% endif %}
+				{% if group.name != "" %}<li><a class="group"><nav>{{ group.name }}</nav></a><ul>{% endif %}
 					{% for topic in sorted_topics %}{% if topic.apple_title == null %}
 					<li{% if page.url == topic.url %} class="active"{% endif %}>
 						<a href="{{ page.rel_root }}{{ topic.url }}"><nav>{{ topic.title }}</nav></a>
@@ -45,6 +45,7 @@ Thus, all text inside this NAV section is also tightly wrapped with NAVs to prev
 		<footer>
 			{% include footer.html %}
 		</footer>
+		<script src="{{ page.rel_root }}/nav.js"></script>
 	</body>
 	
 </html>
