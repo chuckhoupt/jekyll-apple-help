@@ -4,8 +4,6 @@
 <dict>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
-	<key>CFBundleHelpTOCFile</key>
-	<string>index.html</string>
 	<key>CFBundleIdentifier</key>
 	<string>com.bcybernetics.$(PROJECT_NAME:rfc1034identifier).help</string>
 	<key>CFBundleInfoDictionaryVersion</key>
