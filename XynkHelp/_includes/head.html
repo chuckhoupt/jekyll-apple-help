@@ -1,10 +1,11 @@
 <head>
-  <meta charset="utf-8"/>
-  <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
-  <meta name="viewport" content="width=device-width initial-scale=1"/>
-
-  <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
-  <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}"/>
-
-  <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}"/>
+	<meta charset="utf-8"/>
+	<meta name="viewport" content="width=device-width initial-scale=1"/>
+	<title>{{ page.title }}</title>
+	{% if page.apple_title %}<meta name="AppleTitle" content="{{ page.apple_title }}"/>{% endif %}
+	{% if page.description %}<meta name="description" content="{{ page.description }}"/>{% endif %}
+	{% if page.keywords %}<meta name="keywords" content="{{ page.keywords }}"/>{% endif %}
+	{% if page.robots %}<meta name="robots" content="{{ page.robots }}"/>{% endif %}
+	<link rel="stylesheet" href="{{ page.rel_root }}/css/main.css"/>
+	<script src="{{ page.rel_root }}/nav.js"></script>
 </head>
