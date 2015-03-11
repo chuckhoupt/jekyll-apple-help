@@ -1,5 +1,3 @@
-require 'pp'
-
 # Generator to add relative path to root to every page/collection doc with the key rel_root
 #
 # Example Usage: <img src="{{ page.rel_root }}/image/icon.png">
