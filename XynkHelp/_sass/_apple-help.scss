@@ -1,0 +1,99 @@
+// Splash Screen
+.splash {
+    text-align: center;
+	h1 { font-size: 39px; }
+	img { height: 190px; width: 190px; }
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    overflow: auto;
+	-webkit-font-smoothing: antialiased;
+	font-weight: normal;
+}
+
+// Match h1 to Apple
+h1 {
+	font-size: 27px;
+	line-height: 1.2;
+	margin-bottom: 1em;
+}
+
+// Match icon to Apple
+.bookIcon {
+	float: left;
+	position: relative;
+	top: 1px;
+	padding-right: 10px;
+}
+
+// Match anchor styles to Apple
+a {
+	&:hover {
+		color: $brand-color;
+	}
+	&:visited {
+		color: $brand-color;
+	}
+}
+
+// Match header and main to Apple
+header {
+	position: fixed;
+	top: 0;	left: 0; bottom: 0;	width: 210px;
+	overflow-y: auto;
+	
+	border-right: 1px solid $grey-color-light;
+}
+
+main {
+	position: fixed;
+	top: 0; bottom: 0; left: 210px; right: 0;
+	overflow-y: auto;
+	
+}
+
+nav ul {
+    list-style: none;
+	margin: 0;
+	padding-top: 0.5em;
+	li {
+		line-height: 17px;
+		&.active {
+			background-color: $grey-color-light;
+		}
+	}
+}
+
+.animate nav ul {
+	overflow: hidden;
+	transition: max-height 0.3s ease-in-out;
+}
+
+
+nav ul a {
+	display: block;
+	padding: 0.5em 0em 0.5em 1em;
+	color: $text-color;
+	&:visited {
+		color: $text-color;
+	}
+	&:hover {
+		text-decoration: none;
+		color: $brand-color;
+	}
+}
+
+nav ul ul a {
+	padding-left: 2em;
+}
+
+article {
+	max-width: 596px;
+	padding: 75px 63px;
+}
+
+table {
+    width: 100%;
+}
