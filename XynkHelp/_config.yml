@@ -1,12 +1,9 @@
 # Site settings
-title: JekyllHelp Help
-relative_permalinks: true
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://yourdomain.com" # the base hostname & protocol for your site
 
 # Build settings
 markdown: kramdown
 
+# Localization collections for Help topics. Add more languages as needed.
 collections:
   English.lproj:
     output: true
