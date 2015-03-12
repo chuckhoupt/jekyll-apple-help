@@ -1,4 +1,5 @@
 # Site settings
+apple_help: true  # Flag for conditional markup, if needed.
 
 # Build settings
 markdown: kramdown
