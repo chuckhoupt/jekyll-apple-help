@@ -82,6 +82,7 @@ nav#menu {
 			margin: 0.5em 0 0 1em;
 			font-size: 75%;
 			content: "▼"; display: inline; color: $grey-color;
+			pointer-events: none;
 		}
 		&.group.collapsed::before {
 			content: "▶";
