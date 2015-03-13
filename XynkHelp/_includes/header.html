@@ -9,7 +9,7 @@
 			{% for group in grouped_topics %}
 			{% assign sorted_topics = group.items | sort: "order" %}
 			{% if group.name != "" %}<li class="group"><a name="name"><nav>{{ group.name }}</nav></a><ul name="list">{% endif %}
-				{% for topic in sorted_topics %}{% if topic.apple_title == null %}
+				{% for topic in sorted_topics %}{% if topic.menu_exclude != true %}
 				<li{% if page.url == topic.url %} class="active"{% endif %}>
 					<a href="{{ page.rel_root }}{{ topic.url }}"><nav>{{ topic.title }}</nav></a>
 				</li>
