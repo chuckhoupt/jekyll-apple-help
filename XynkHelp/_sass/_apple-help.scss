@@ -13,6 +13,8 @@ header.banner {
 	top: 0;	left: 0; bottom: 0;	width: 210px;
 	overflow-y: auto;
 	border-right: 1px solid $grey-color-light;
+	z-index: 1;
+	background-color: white;
 }
 
 main {
@@ -23,16 +25,29 @@ main {
 	padding: 75px 63px;
 }
 
+// Minimal responsiveness
+
+@media all and (max-width:568px) {
+	body:not(.title-page) header.banner {
+        display: none;
+    }
+	main {
+		left: 0;
+		padding: 5% 5%;
+	}
+}
+
+
 // Styling of the main content for Jekyll layouts
 
-main.title-page {
+.title-page main {
 	header {
 		text-align: center;
 		h1 { font-size: 39px; }
 	}
 }
 
-main.help-page {
+.help-page main {
 	h1 {
 		font-size: 27px;
 		line-height: 1.2;
