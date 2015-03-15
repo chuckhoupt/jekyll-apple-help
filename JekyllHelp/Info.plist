@@ -5,7 +5,7 @@
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleIdentifier</key>
-	<string>com.bcybernetics.$(PROJECT_NAME:rfc1034identifier).help</string>
+	<string>com.example.$(PROJECT_NAME:rfc1034identifier).help</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
