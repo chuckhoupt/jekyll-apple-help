@@ -40,6 +40,22 @@ module Jekyll
 			end
 		end
 
+		# Stable Sort an array of objects
+		#
+		# input - the object array
+		# property - property within each object to filter by
+		#
+		# Returns the filtered array of objects
+		def stable_sort(input, property = nil)
+			if input.nil?
+				raise ArgumentError.new("Cannot sort a null object.")
+			end
+			if property.nil?
+				raise ArgumentError.new("Cannot sort without property.")
+			end
+			input.sort_by.with_index { |e, index| [item_property(e, property), index] }
+		end
+		
 	end
 end
 
