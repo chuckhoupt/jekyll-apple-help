@@ -1,13 +1,12 @@
 # Jekyll Apple Help
 
-
-Jekyll-Apple-Help is a Jekyll template and Xcode build system that makes it easy to author and build Mac OS X Help Books. Add Help to your Mac app, and start authoring in Markdown within minutes. The resulting Help has the same look & feel as Apple's Yosemite apps.
+Jekyll-Apple-Help is a [Jekyll] template and [Xcode] build system that makes it easy to author and build [Mac OS X Help Books](https://developer.apple.com/library/mac/documentation/Carbon/Conceptual/ProvidingUserAssitAppleHelp/user_help_intro/user_assistance_intro.html). Add Help to your Mac app, and start authoring in Markdown within minutes. The resulting Help has the same look & feel as Apple's Yosemite apps.
 
 ![Jekyll Apple Help Screenshot](jekyll-apple-help.png)
 
 ### Background
 
-When recently helping develop [Xynk](http://xynkapp.com), I wanted to make some how-to documentation available through Apple's help system. Should be some simple HTML, right? Well, as [Apple Help veterans](http://alastairs-place.net/blog/2015/01/14/apple-help-in-2015/) know, the help developer documentation is byzantine and the tools are idiosyncratic. How to simplify help for the indie developer?
+When recently helping develop [Xynk], I wanted to make some how-to documentation available through Apple's help system. Should be some simple HTML, right? Well, as [Apple Help veterans](http://alastairs-place.net/blog/2015/01/14/apple-help-in-2015/) know, the help developer documentation is byzantine and the tools are idiosyncratic. How to simplify help for the indie developer?
 
 Fundimentally, Mac OS X's Apple Help Books are static web sites and Jekyll is an excellent static site generator, so the two fit naturally. In particular, Jekyll's recently added Collections feature is perfect for wrangling help topics. Add some layouts, plugins, and build-glue and you get Jekyll-Apple-Help.
 
@@ -17,8 +16,8 @@ Fundimentally, Mac OS X's Apple Help Books are static web sites and Jekyll is an
 
 ## Requirements
 
-- [Xcode](https://developer.apple.com/xcode/)
-- [Jekyll](http://jekyllrb.com) (both standard install and [RVM](https://rvm.io) supported)
+- [Xcode]
+- [Jekyll] - both standard install and [RVM](https://rvm.io) supported
 
 Optional: [fswatch](http://brewformulas.org/Fswatch) for auto-refresh via jekyll-server.command
 
@@ -56,4 +55,8 @@ Now the MyAppHelp target should build, creating the product `MyAppHelp.help`
 
 ## Apps that use Jekyll-Apple-Help
 
-[Xynk](http://xynkapp.com/)
+[Xynk]
+
+[Jekyll]: http://jekyllrb.com
+[Xcode]: https://developer.apple.com/xcode/
+[Xynk]: http://xynkapp.com/
