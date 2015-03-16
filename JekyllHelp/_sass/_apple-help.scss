@@ -1,7 +1,7 @@
 
 /*
 
-Tip: How to examine Apple's help CSS
+Tip: How to examine Apple's Yosemite help CSS
 
 The HelpViewer doesn't allow one to inspect pages, but all of Yosemite's help is available online.
 Use the share button to get URLs. For example:
@@ -17,6 +17,28 @@ To get the online help to render identically, use Safari's Inspector to:
 Now the page looks/works the same as in HelpViewer (except for responsive styles).
 
 */
+
+// Base variable defaults, which can be overridden
+$base-font-family: HelveticaNeue, 'Helvetica Neue', Helvetica, sans-serif !default;;
+$base-font-size:   12px !default;
+$small-font-size:  $base-font-size * 0.875 !default;
+$base-line-height: 1.5 !default;
+
+$spacing-unit:     30px !default;
+
+$text-color:       #484848 !default;
+$background-color: #ffffff !default;
+$brand-color:      #007aff !default;
+
+$grey-color:       #828282;
+$grey-color-light: lighten($grey-color, 40%);
+$grey-color-dark:  darken($grey-color, 25%);
+
+@import
+"base",
+"syntax-highlighting"
+;
+
 
 // Overall page structure
 
