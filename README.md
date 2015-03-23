@@ -8,10 +8,15 @@ Jekyll-Apple-Help is a [Jekyll] template and [Xcode] build system that makes it 
 
 When recently helping develop [Xynk], I wanted to make some how-to documentation available through Apple's help system. Should be some simple HTML, right? Well, as [Apple Help veterans](http://alastairs-place.net/blog/2015/01/14/apple-help-in-2015/) know, the help developer documentation is byzantine and the tools are idiosyncratic. How to simplify help for the indie developer?
 
-Fundimentally, Mac OS X's Apple Help Books are static web sites and Jekyll is an excellent static site generator, so the two fit naturally. In particular, Jekyll's recently added Collections feature is perfect for wrangling help topics. Add some layouts, plugins, and build-glue and you get Jekyll-Apple-Help.
+Fundimentally, Mac OS X's Apple Help Books are static web sites and [Jekyll] is an excellent static site generator, so the two fit naturally. In particular, Jekyll's recently added [Collections](http://jekyllrb.com/docs/collections/) feature is perfect for wrangling help topics. Add some layouts, plugins, and build-glue and you get Jekyll-Apple-Help.
 
 ## Features
 
+- Use Markdown to write help topics
+- Xcode integration
+- Automatic and flexible navigation menu
+- Automatic help index generation
+- Styled like Yosemite's help
 
 
 ## Requirements
