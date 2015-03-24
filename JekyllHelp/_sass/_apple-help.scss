@@ -126,7 +126,6 @@ nav#menu {
     ul {
 		list-style: none;
 		margin: 0;
-		padding-top: 0.5em;
 	}
 
 	li {
@@ -150,6 +149,7 @@ nav#menu {
 		display: block;
 		padding: 0.5em 0em 0.5em 2em;
 		color: $text-color;
+		cursor: pointer;
 		&:visited {
 			color: $text-color;
 		}
