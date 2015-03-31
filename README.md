@@ -42,7 +42,9 @@ In the following, substitute your app/company for "MyApp"/"com.mycompany".
 0. Replace Xcode-generate MyAppHelp folder with JekyllHelp (renamed to MyAppHelp)
 0. Update Bundles identifier to `com.mycompany.*`
 0. Add a Run-Script Build-Phase with the script:
-	`/usr/bin/make -C $(dirname "$PRODUCT_SETTINGS_PATH")`
+   ```
+   /usr/bin/make -C $(dirname "$PRODUCT_SETTINGS_PATH")
+   ```
 
 Now the MyAppHelp target should build, creating the product `MyAppHelp.help`
 
@@ -54,9 +56,54 @@ Now the MyAppHelp target should build, creating the product `MyAppHelp.help`
 	- Help Book Identifier: `com.mycompany.$(PROJECT_NAME:rfc1034identifier).help`
 	- Help Book directory name: `$(PROJECT_NAME)Help.help`
 
-
+Finished. Now run your app and use the Help menu to open/search help.
 
 ## Authoring
+
+Basic authoring only involves the following files in the bundle:
+
+- JekyllHelp
+  - book-icon.png
+  - _English.lproj
+    - index.md
+    - topic-1.md
+    - topic-2.md
+
+### Book Icon
+
+The Help-Book icon file `book-icon.png` is displayed on the help title page and in topic page headers. Typically it is just a copy of the app icon. It should be large (~512px) to accomidate retina displays.
+
+### Title Page (Access Page)
+
+### Help Topics
+
+Each help topic is a single Markdown file in a language collection folder (e.g. `_English.lproj`). The only required Front Matter variable is a title. A 'hello world' topic:
+
+```
+---
+title: Hello World
+---
+Welcome to JekyllHelp.
+```
+Help Topic Variables:
+
+- title
+- description
+- keywords 
+- order
+- robots
+
+A more typical Front Matter example with variables for description, keywords and ordering:
+
+```
+---
+title: Keyboard Shortcuts
+description: Quickly accomplish many tasks using keyboard and other shortcuts.
+keywords: keypress, accelerators, cheat codes
+order: .INF
+---
+...topic content...
+```
 
 ## Apps that use Jekyll-Apple-Help
 
