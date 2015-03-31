@@ -2,6 +2,8 @@
 
 Jekyll-Apple-Help is a [Jekyll] template and [Xcode] build system that makes it easy to author and build [Mac OS X Help Books](https://developer.apple.com/library/mac/documentation/Carbon/Conceptual/ProvidingUserAssitAppleHelp/user_help_intro/user_assistance_intro.html). Add Help to your Mac app, and start authoring in Markdown within minutes. The resulting Help has the same look & feel as Apple's Yosemite apps.
 
+Try out the [Demo Site](http://habilis.net/jah/English.lproj/).
+
 ![Jekyll Apple Help Screenshot](jekyll-apple-help.png)
 
 ### Background
