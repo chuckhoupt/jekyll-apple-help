@@ -19,6 +19,7 @@ Fundimentally, Mac OS X's Apple Help Books are static web sites and [Jekyll] is 
 - Automatic and flexible navigation menu
 - Automatic help index generation
 - Styled like Yosemite's help
+- Supports Multi-lingual help
 
 
 ## Requirements
@@ -77,6 +78,8 @@ The Help-Book icon file `book-icon.png` is displayed on the help title page and 
 
 ### Title Page (Access Page)
 
+🚧
+
 ### Help Topics
 
 Each help topic is a single Markdown file in a language collection folder (e.g. `_English.lproj`). The only required Front Matter variable is a title. A 'hello world' topic:
@@ -106,6 +109,11 @@ order: .INF
 ---
 ...topic content...
 ```
+### Localization
+
+A new language is added by creating a new langauge collection folder (e.g. `_Japanese.lproj`). Language collections must be registered in [`_config.yml`](JekyllHelp/_config.yml). Some common language are registered in the default configuration (EJD-FIGS).
+
+JekyllHelp's makefile will generate a help index for every *.lproj in the help bundle.
 
 ## Apps that use Jekyll-Apple-Help
 
