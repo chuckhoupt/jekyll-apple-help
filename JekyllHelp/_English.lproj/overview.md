@@ -45,3 +45,10 @@ This is the Jekyll Apple Help template. This overview has some markdown samples.
 > This is a blockquote. Lorem ipsum dolor sit amet,
 > consectetuer adipiscing elit. Aliquam hendrerit mi posuere lectus.
 > Vestibulum enim wisi, viverra nec, fringilla in, laoreet vitae, risus.
+
+## Table
+
+Column 1 Header | Column 2 Header
+:--- | :---
+Cell 1 | Cell 2
+Cell 3 | Cell 4
