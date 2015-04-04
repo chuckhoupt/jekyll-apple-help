@@ -31,7 +31,7 @@ This is the Jekyll Apple Help template. This overview has some markdown samples.
 ## Inline Styles
 
 - *Emphasis*
-- _Strong_
+- **Strong**
 - `inline code`
 
 ## Code
