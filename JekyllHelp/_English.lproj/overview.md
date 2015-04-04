@@ -36,9 +36,19 @@ This is the Jekyll Apple Help template. This overview has some markdown samples.
 
 ## Code
 
+Plain Code:
+
     tell application "Foo"
         beep
     end tell
+
+Jekyll Highlighted Code:
+
+{% highlight applescript %}
+tell application "Foo"
+    beep
+end tell
+{% endhighlight %}
 
 ## Blockquotes
 
