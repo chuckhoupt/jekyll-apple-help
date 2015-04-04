@@ -1,4 +1,4 @@
 ---
 title: Do Something Else
-category: Category Group B
+group: Group B
 ---

@@ -1,4 +1,4 @@
 ---
 title: Do Another-thing
-category: Category Group A
+group: Group A
 ---

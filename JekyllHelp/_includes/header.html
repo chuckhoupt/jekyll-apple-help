@@ -5,7 +5,7 @@
 	{% endcomment %}
 	<nav id="menu" class="dynamic">
 		{% assign title_page = site[page.collection] | has: "group_order" | first %}
-		{% assign topics_tree = site[page.collection] | tree_by_with_prop_lookup: "category", "order", title_page.group_order | stable_sort: "order" %}
+		{% assign topics_tree = site[page.collection] | tree_by_with_prop_lookup: "group", "order", title_page.group_order | stable_sort: "order" %}
 		<ul>
 		{% for node in topics_tree %}
 			{% if node.name %}

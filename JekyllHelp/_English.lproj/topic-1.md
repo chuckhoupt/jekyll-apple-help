@@ -1,4 +1,4 @@
 ---
 title: Do Something
-category: Category Group A
+group: Group A
 ---
