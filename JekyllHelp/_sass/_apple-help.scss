@@ -19,6 +19,7 @@ Now the page looks/works the same as in HelpViewer (except for responsive styles
 */
 
 // Base variable defaults, which can be overridden
+
 $base-font-family: HelveticaNeue, 'Helvetica Neue', Helvetica, sans-serif !default;;
 $base-font-size:   12px !default;
 $small-font-size:  $base-font-size * 0.875 !default;
@@ -116,8 +117,30 @@ a {
 
 table {
 	width: 100%;
+	border-collapse: collapse;
+	line-height: 2.29558;
 }
 
+tbody {
+	border-top: 1px solid $grey-color-light;
+}
+
+tr {
+	border-bottom: 1px solid $grey-color-light;
+}
+
+pre {
+	overflow: auto;
+}
+
+pre, code {
+	background-color: #f7f7f7;
+	font-size: 1em;
+}
+
+blockquote {
+	font-size: $base-font-size * 1.25;
+}
 
 // Navigation Menu styles
 
