@@ -8,7 +8,7 @@ Try out the [Demo Site](http://habilis.net/jah/English.lproj/).
 
 ### Background
 
-When recently helping develop [Xynk], I wanted to make some how-to documentation available through Apple's help system. Should be some simple HTML, right? Well, as [Apple Help veterans](http://alastairs-place.net/blog/2015/01/14/apple-help-in-2015/) know, the help developer documentation is byzantine and the tools are idiosyncratic. How to simplify help for the indie developer?
+When recently helping develop a Mac App ([Xynk]), I wanted to make some how-to documentation available through Apple's help system. Should be some simple HTML, right? Well, as [Apple Help veterans](http://alastairs-place.net/blog/2015/01/14/apple-help-in-2015/) know, the help developer documentation is byzantine and the tools are idiosyncratic. How to simplify help for the indie developer?
 
 Fundimentally, Mac OS X's Apple Help Books are static web sites and [Jekyll] is an excellent static site generator, so the two fit naturally. In particular, Jekyll's recently added [Collections](http://jekyllrb.com/docs/collections/) feature is perfect for wrangling help topics. Add some layouts, plugins, and build-glue and you get Jekyll-Apple-Help.
 
@@ -82,7 +82,7 @@ The Help-Book icon file `book-icon.png` is displayed on the help title page and 
 
 ### Help Topics
 
-Each help topic is a single Markdown file in a language collection folder (e.g. `_English.lproj`). The only required Front Matter variable is a title. A 'hello world' topic:
+Each help topic is a single Markdown file in a language collection folder (e.g. [`_English.lproj`](JekyllHelp/_English.lproj)). The only required Front Matter variable is a title. A 'hello world' topic:
 
 ```
 ---
@@ -113,7 +113,7 @@ order: .INF
 
 A new language is added by creating a new langauge collection folder (e.g. `_Japanese.lproj`). Language collections must be registered in [`_config.yml`](JekyllHelp/_config.yml). Some common language are registered in the default configuration (EJD-FIGS).
 
-JekyllHelp's makefile will generate a help index for every *.lproj in the help bundle.
+JekyllHelp's [`Makefile`](JekyllHelp/Makefile) will generate a help index for every *.lproj in the help bundle.
 
 ## Apps that use Jekyll-Apple-Help
 
