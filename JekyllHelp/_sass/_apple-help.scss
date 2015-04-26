@@ -51,8 +51,15 @@ html, body {
 	font-weight: normal;
 }
 
+body {
+	position: relative;
+	max-width: 956px;
+	margin: 0 auto;
+	background-color: rgb(230, 233, 234);
+}
+
 header.banner {
-	position: fixed;
+	position: absolute;
 	top: 0;	left: 0; bottom: 0;	width: 210px;
 	overflow-y: auto;
 	border-right: 1px solid $grey-color-light;
@@ -61,16 +68,16 @@ header.banner {
 }
 
 main {
-	position: fixed;
+	position: absolute;
 	top: 0; bottom: 0; left: 210px; right: 0;
 	overflow-y: auto;
-	max-width: 596px;
 	padding: 50px 63px;
+	background-color: white;
 }
 
 // Minimal responsiveness
 
-@media all and (max-width:568px) {
+@media all and (max-width:874px) {
 	body:not(.title-page) header.banner {
         display: none;
     }
@@ -154,7 +161,7 @@ nav#menu {
 	li {
 		line-height: 17px;
 		&.active {
-			background-color: $grey-color-light;
+			background-color: rgb(242, 242, 242);
 		}
 		&.group::before {
 			position: absolute;
