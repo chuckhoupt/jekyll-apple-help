@@ -7,5 +7,7 @@
 	{% if page.keywords %}<meta name="keywords" content="{{ page.keywords }}"/>{% endif %}
 	{% if page.robots %}<meta name="robots" content="{{ page.robots }}"/>{% endif %}
 	<link rel="stylesheet" href="{{ page.rel_root }}/css/main.css"/>
+	{% if page.style %}<style>{{ page.style }}</style>{% endif %}
 	<script src="{{ page.rel_root }}/nav.js"></script>
+	{% if page.script %}<script>{{ page.script }}</script>{% endif %}
 </head>
