@@ -45,6 +45,16 @@
 		138CA72F1AF831CD00D86F08 /* MyAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyAppTests.m; sourceTree = "<group>"; };
 		138CA73D1AF832B400D86F08 /* MyAppHelp.help */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyAppHelp.help; sourceTree = BUILT_PRODUCTS_DIR; };
 		138CA7401AF832B400D86F08 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		138CA74B1AF83ABB00D86F08 /* _English */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = _English; path = index.md; sourceTree = "<group>"; };
+		138CA74D1AF83ABB00D86F08 /* _English */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = _English; path = InfoPlist.strings; sourceTree = "<group>"; };
+		138CA74F1AF83ABB00D86F08 /* _English */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = _English; path = keyboard.md; sourceTree = "<group>"; };
+		138CA7511AF83ABB00D86F08 /* _English */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = _English; path = overview.md; sourceTree = "<group>"; };
+		138CA7531AF83ABB00D86F08 /* _English */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = _English; path = overview.png; sourceTree = "<group>"; };
+		138CA7551AF83ABB00D86F08 /* _English */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = _English; path = overview.svg; sourceTree = "<group>"; };
+		138CA7571AF83ABB00D86F08 /* _English */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = _English; path = screenshot.png; sourceTree = "<group>"; };
+		138CA7591AF83ABB00D86F08 /* _English */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = _English; path = "topic-1.md"; sourceTree = "<group>"; };
+		138CA75B1AF83ABB00D86F08 /* _English */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = _English; path = "topic-2.md"; sourceTree = "<group>"; };
+		138CA75D1AF83ABB00D86F08 /* _English */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = _English; path = "topic-3.md"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,6 +143,7 @@
 		138CA73E1AF832B400D86F08 /* MyAppHelp */ = {
 			isa = PBXGroup;
 			children = (
+				138CA7491AF83ABB00D86F08 /* _English.lproj */,
 				138CA73F1AF832B400D86F08 /* Supporting Files */,
 			);
 			path = MyAppHelp;
@@ -144,6 +155,23 @@
 				138CA7401AF832B400D86F08 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		138CA7491AF83ABB00D86F08 /* _English.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				138CA74A1AF83ABB00D86F08 /* index.md */,
+				138CA74C1AF83ABB00D86F08 /* InfoPlist.strings */,
+				138CA74E1AF83ABB00D86F08 /* keyboard.md */,
+				138CA7501AF83ABB00D86F08 /* overview.md */,
+				138CA7521AF83ABB00D86F08 /* overview.png */,
+				138CA7541AF83ABB00D86F08 /* overview.svg */,
+				138CA7561AF83ABB00D86F08 /* screenshot.png */,
+				138CA7581AF83ABB00D86F08 /* topic-1.md */,
+				138CA75A1AF83ABB00D86F08 /* topic-2.md */,
+				138CA75C1AF83ABB00D86F08 /* topic-3.md */,
+			);
+			path = _English.lproj;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,6 +259,7 @@
 			knownRegions = (
 				en,
 				Base,
+				_English,
 			);
 			mainGroup = 138CA70D1AF831CC00D86F08;
 			productRefGroup = 138CA7171AF831CC00D86F08 /* Products */;
@@ -335,6 +364,86 @@
 				138CA7231AF831CC00D86F08 /* Base */,
 			);
 			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		138CA74A1AF83ABB00D86F08 /* index.md */ = {
+			isa = PBXVariantGroup;
+			children = (
+				138CA74B1AF83ABB00D86F08 /* _English */,
+			);
+			name = index.md;
+			sourceTree = "<group>";
+		};
+		138CA74C1AF83ABB00D86F08 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				138CA74D1AF83ABB00D86F08 /* _English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		138CA74E1AF83ABB00D86F08 /* keyboard.md */ = {
+			isa = PBXVariantGroup;
+			children = (
+				138CA74F1AF83ABB00D86F08 /* _English */,
+			);
+			name = keyboard.md;
+			sourceTree = "<group>";
+		};
+		138CA7501AF83ABB00D86F08 /* overview.md */ = {
+			isa = PBXVariantGroup;
+			children = (
+				138CA7511AF83ABB00D86F08 /* _English */,
+			);
+			name = overview.md;
+			sourceTree = "<group>";
+		};
+		138CA7521AF83ABB00D86F08 /* overview.png */ = {
+			isa = PBXVariantGroup;
+			children = (
+				138CA7531AF83ABB00D86F08 /* _English */,
+			);
+			name = overview.png;
+			sourceTree = "<group>";
+		};
+		138CA7541AF83ABB00D86F08 /* overview.svg */ = {
+			isa = PBXVariantGroup;
+			children = (
+				138CA7551AF83ABB00D86F08 /* _English */,
+			);
+			name = overview.svg;
+			sourceTree = "<group>";
+		};
+		138CA7561AF83ABB00D86F08 /* screenshot.png */ = {
+			isa = PBXVariantGroup;
+			children = (
+				138CA7571AF83ABB00D86F08 /* _English */,
+			);
+			name = screenshot.png;
+			sourceTree = "<group>";
+		};
+		138CA7581AF83ABB00D86F08 /* topic-1.md */ = {
+			isa = PBXVariantGroup;
+			children = (
+				138CA7591AF83ABB00D86F08 /* _English */,
+			);
+			name = "topic-1.md";
+			sourceTree = "<group>";
+		};
+		138CA75A1AF83ABB00D86F08 /* topic-2.md */ = {
+			isa = PBXVariantGroup;
+			children = (
+				138CA75B1AF83ABB00D86F08 /* _English */,
+			);
+			name = "topic-2.md";
+			sourceTree = "<group>";
+		};
+		138CA75C1AF83ABB00D86F08 /* topic-3.md */ = {
+			isa = PBXVariantGroup;
+			children = (
+				138CA75D1AF83ABB00D86F08 /* _English */,
+			);
+			name = "topic-3.md";
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -542,6 +651,7 @@
 				138CA7431AF832B400D86F08 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
