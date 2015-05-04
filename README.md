@@ -45,8 +45,9 @@ In the following, substitute your app/company for "MyApp"/"com.mycompany".
 0. Replace Xcode-generate MyAppHelp folder with JekyllHelp (renamed to MyAppHelp)
 0. Update Bundles identifier to `com.mycompany.*`
 0. Add a Run-Script Build-Phase with the script:
+
    ```
-   /usr/bin/make -C $(dirname "$PRODUCT_SETTINGS_PATH")
+   /usr/bin/make -C "$(dirname "$PRODUCT_SETTINGS_PATH")"
    ```
 
 Now the MyAppHelp target should build, creating the product `MyAppHelp.help`
