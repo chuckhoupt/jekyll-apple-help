@@ -81,6 +81,12 @@ The Help-Book icon file `book-icon.png` is displayed on the help title page and 
 
 🚧
 
+### Sorting Groups and Topics
+Sort topics by including a line like this in the front matter of your topic page: `order: 3`. Number each one as you would like it to appear within its group.
+
+To order groups, open the index.md file and add your group names to the `group_order` hash in this format:
+`group_order: {"Group Name": 1, "Another Group": 2}`
+
 ### Help Topics
 
 Each help topic is a single Markdown file in a language collection folder (e.g. [`_English.lproj`](JekyllHelp/_English.lproj)). The only required Front Matter variable is a title. A 'hello world' topic:
