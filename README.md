@@ -126,6 +126,8 @@ JekyllHelp's [`Makefile`](JekyllHelp/Makefile) will generate a help index for ev
 
 [CleanMyMac 3](http://macpaw.com/cleanmymac)
 
+[Flinto For Mac](https://www.flinto.com/mac)
+
 [Xynk]
 
 [Jekyll]: http://jekyllrb.com
