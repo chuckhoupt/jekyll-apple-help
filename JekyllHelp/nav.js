@@ -51,3 +51,16 @@ document.onreadystatechange = function () {
 			break;
 	}
 };
+
+// Setup TOC Button support when running in Help Viewer
+if ("HelpViewer" in window && "showTOCButton" in window.HelpViewer) {
+	function toggleBanner() {
+		document.querySelector('body').classList.toggle('show-banner');
+	}
+	window.setTimeout(function () {
+		window.HelpViewer.showTOCButton(true, toggleBanner, toggleBanner);
+		window.HelpViewer.setTOCButton(true);
+
+	}, 100);
+}
+

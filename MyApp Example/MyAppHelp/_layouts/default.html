@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
 	{% include head.html %}
-	<body class="{{ page.layout }}">
+	<body class="{{ page.layout }}{% if page.class %} {{ page.class }}{% endif %}">
 		{% include header.html %}
 		<main>
 			{{ content }}

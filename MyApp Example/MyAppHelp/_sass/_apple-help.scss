@@ -91,8 +91,8 @@ main {
 // Minimal responsiveness
 
 @media all and (max-width:874px) {
-	body:not(.title-page) header.banner {
-        display: none;
+	body:not(.show-banner) header.banner {
+        left: -210px;
     }
 	main {
 		left: 0;
