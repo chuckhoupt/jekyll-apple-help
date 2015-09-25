@@ -8,7 +8,8 @@ export LANG ?= en_US.UTF-8
 
 $(HELP) : * **/*
 	[[ -s "$(HOME)/.rvm/environments/default" ]] && source "$(HOME)/.rvm/environments/default" ; \
-	jekyll build --destination "$(HELP)"
+	(which -s jekyll || (echo "error: Jekyll not found - check setup requirements" ; false )) \
+	&& jekyll build --destination "$(HELP)"
 	for LPROJ in "$(HELP)"/*.lproj ; do \
 		LOCALE=$$(basename "$$LPROJ" .lproj) ; \
 		echo "Indexing: $$LPROJ" ; \
