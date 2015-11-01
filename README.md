@@ -126,6 +126,8 @@ JekyllHelp's [`Makefile`](JekyllHelp/Makefile) will generate a help index for ev
 
 [CleanMyMac 3](http://macpaw.com/cleanmymac)
 
+[iTubePlayer](http://www.alphasoftware.co/#!itubeplayer/c363)
+
 [Xynk]
 
 [Jekyll]: http://jekyllrb.com
