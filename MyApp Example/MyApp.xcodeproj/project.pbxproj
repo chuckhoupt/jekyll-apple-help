@@ -7,72 +7,43 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		138CA71D1AF831CC00D86F08 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 138CA71C1AF831CC00D86F08 /* AppDelegate.m */; };
-		138CA71F1AF831CC00D86F08 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 138CA71E1AF831CC00D86F08 /* main.m */; };
-		138CA7211AF831CC00D86F08 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 138CA7201AF831CC00D86F08 /* Images.xcassets */; };
-		138CA7241AF831CC00D86F08 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 138CA7221AF831CC00D86F08 /* MainMenu.xib */; };
-		138CA7301AF831CD00D86F08 /* MyAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 138CA72F1AF831CD00D86F08 /* MyAppTests.m */; };
-		138CA7471AF8339C00D86F08 /* MyAppHelp.help in Resources */ = {isa = PBXBuildFile; fileRef = 138CA73D1AF832B400D86F08 /* MyAppHelp.help */; };
+		1365727B1C2629CD00A07BB7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1365727A1C2629CD00A07BB7 /* AppDelegate.m */; };
+		1365727E1C2629CD00A07BB7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1365727D1C2629CD00A07BB7 /* main.m */; };
+		136572801C2629CD00A07BB7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1365727F1C2629CD00A07BB7 /* Assets.xcassets */; };
+		136572831C2629CD00A07BB7 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 136572811C2629CD00A07BB7 /* MainMenu.xib */; };
+		136572C01C26FEFD00A07BB7 /* JekyllHelp.help in Resources */ = {isa = PBXBuildFile; fileRef = 136572BD1C26FE9300A07BB7 /* JekyllHelp.help */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		138CA72A1AF831CD00D86F08 /* PBXContainerItemProxy */ = {
+		136572BC1C26FE9300A07BB7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 138CA70E1AF831CC00D86F08 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 138CA7151AF831CC00D86F08;
-			remoteInfo = MyApp;
+			containerPortal = 136572B81C26FE9300A07BB7 /* JekyllHelp.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1365725D1C26230700A07BB7;
+			remoteInfo = JekyllHelp;
 		};
-		138CA7451AF8339200D86F08 /* PBXContainerItemProxy */ = {
+		136572BE1C26FEDF00A07BB7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 138CA70E1AF831CC00D86F08 /* Project object */;
+			containerPortal = 136572B81C26FE9300A07BB7 /* JekyllHelp.xcodeproj */;
 			proxyType = 1;
-			remoteGlobalIDString = 138CA73C1AF832B400D86F08;
-			remoteInfo = MyAppHelp;
+			remoteGlobalIDString = 1365725C1C26230700A07BB7;
+			remoteInfo = JekyllHelp;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		138CA7161AF831CC00D86F08 /* MyApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		138CA71A1AF831CC00D86F08 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		138CA71B1AF831CC00D86F08 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		138CA71C1AF831CC00D86F08 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		138CA71E1AF831CC00D86F08 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		138CA7201AF831CC00D86F08 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		138CA7231AF831CC00D86F08 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
-		138CA7291AF831CD00D86F08 /* MyAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		138CA72E1AF831CD00D86F08 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		138CA72F1AF831CD00D86F08 /* MyAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyAppTests.m; sourceTree = "<group>"; };
-		138CA73D1AF832B400D86F08 /* MyAppHelp.help */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyAppHelp.help; sourceTree = BUILT_PRODUCTS_DIR; };
-		138CA7401AF832B400D86F08 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		138CA74B1AF83ABB00D86F08 /* _English */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = _English; path = index.md; sourceTree = "<group>"; };
-		138CA74D1AF83ABB00D86F08 /* _English */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = _English; path = InfoPlist.strings; sourceTree = "<group>"; };
-		138CA74F1AF83ABB00D86F08 /* _English */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = _English; path = keyboard.md; sourceTree = "<group>"; };
-		138CA7511AF83ABB00D86F08 /* _English */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = _English; path = overview.md; sourceTree = "<group>"; };
-		138CA7531AF83ABB00D86F08 /* _English */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = _English; path = overview.png; sourceTree = "<group>"; };
-		138CA7551AF83ABB00D86F08 /* _English */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = _English; path = overview.svg; sourceTree = "<group>"; };
-		138CA7571AF83ABB00D86F08 /* _English */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = _English; path = screenshot.png; sourceTree = "<group>"; };
-		138CA7591AF83ABB00D86F08 /* _English */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = _English; path = "topic-1.md"; sourceTree = "<group>"; };
-		138CA75B1AF83ABB00D86F08 /* _English */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = _English; path = "topic-2.md"; sourceTree = "<group>"; };
-		138CA75D1AF83ABB00D86F08 /* _English */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = _English; path = "topic-3.md"; sourceTree = "<group>"; };
+		136572761C2629CD00A07BB7 /* MyApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		136572791C2629CD00A07BB7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1365727A1C2629CD00A07BB7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1365727D1C2629CD00A07BB7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1365727F1C2629CD00A07BB7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		136572821C2629CD00A07BB7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		136572841C2629CD00A07BB7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		136572B81C26FE9300A07BB7 /* JekyllHelp.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = JekyllHelp.xcodeproj; path = ../JekyllHelp/JekyllHelp.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		138CA7131AF831CC00D86F08 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		138CA7261AF831CD00D86F08 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		138CA73A1AF832B400D86F08 /* Frameworks */ = {
+		136572731C2629CD00A07BB7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -82,374 +53,167 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		138CA70D1AF831CC00D86F08 = {
+		1365726D1C2629CD00A07BB7 = {
 			isa = PBXGroup;
 			children = (
-				138CA7181AF831CC00D86F08 /* MyApp */,
-				138CA72C1AF831CD00D86F08 /* MyAppTests */,
-				138CA73E1AF832B400D86F08 /* MyAppHelp */,
-				138CA7171AF831CC00D86F08 /* Products */,
+				136572781C2629CD00A07BB7 /* MyApp */,
+				136572771C2629CD00A07BB7 /* Products */,
+				136572B81C26FE9300A07BB7 /* JekyllHelp.xcodeproj */,
 			);
 			sourceTree = "<group>";
 		};
-		138CA7171AF831CC00D86F08 /* Products */ = {
+		136572771C2629CD00A07BB7 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				138CA7161AF831CC00D86F08 /* MyApp.app */,
-				138CA7291AF831CD00D86F08 /* MyAppTests.xctest */,
-				138CA73D1AF832B400D86F08 /* MyAppHelp.help */,
+				136572761C2629CD00A07BB7 /* MyApp.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		138CA7181AF831CC00D86F08 /* MyApp */ = {
+		136572781C2629CD00A07BB7 /* MyApp */ = {
 			isa = PBXGroup;
 			children = (
-				138CA71B1AF831CC00D86F08 /* AppDelegate.h */,
-				138CA71C1AF831CC00D86F08 /* AppDelegate.m */,
-				138CA7201AF831CC00D86F08 /* Images.xcassets */,
-				138CA7221AF831CC00D86F08 /* MainMenu.xib */,
-				138CA7191AF831CC00D86F08 /* Supporting Files */,
+				136572791C2629CD00A07BB7 /* AppDelegate.h */,
+				1365727A1C2629CD00A07BB7 /* AppDelegate.m */,
+				1365727F1C2629CD00A07BB7 /* Assets.xcassets */,
+				136572811C2629CD00A07BB7 /* MainMenu.xib */,
+				136572841C2629CD00A07BB7 /* Info.plist */,
+				1365727C1C2629CD00A07BB7 /* Supporting Files */,
 			);
 			path = MyApp;
 			sourceTree = "<group>";
 		};
-		138CA7191AF831CC00D86F08 /* Supporting Files */ = {
+		1365727C1C2629CD00A07BB7 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				138CA71A1AF831CC00D86F08 /* Info.plist */,
-				138CA71E1AF831CC00D86F08 /* main.m */,
+				1365727D1C2629CD00A07BB7 /* main.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		138CA72C1AF831CD00D86F08 /* MyAppTests */ = {
+		136572B91C26FE9300A07BB7 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				138CA72F1AF831CD00D86F08 /* MyAppTests.m */,
-				138CA72D1AF831CD00D86F08 /* Supporting Files */,
+				136572BD1C26FE9300A07BB7 /* JekyllHelp.help */,
 			);
-			path = MyAppTests;
-			sourceTree = "<group>";
-		};
-		138CA72D1AF831CD00D86F08 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				138CA72E1AF831CD00D86F08 /* Info.plist */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		138CA73E1AF832B400D86F08 /* MyAppHelp */ = {
-			isa = PBXGroup;
-			children = (
-				138CA7491AF83ABB00D86F08 /* _English.lproj */,
-				138CA73F1AF832B400D86F08 /* Supporting Files */,
-			);
-			path = MyAppHelp;
-			sourceTree = "<group>";
-		};
-		138CA73F1AF832B400D86F08 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				138CA7401AF832B400D86F08 /* Info.plist */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		138CA7491AF83ABB00D86F08 /* _English.lproj */ = {
-			isa = PBXGroup;
-			children = (
-				138CA74A1AF83ABB00D86F08 /* index.md */,
-				138CA74C1AF83ABB00D86F08 /* InfoPlist.strings */,
-				138CA74E1AF83ABB00D86F08 /* keyboard.md */,
-				138CA7501AF83ABB00D86F08 /* overview.md */,
-				138CA7521AF83ABB00D86F08 /* overview.png */,
-				138CA7541AF83ABB00D86F08 /* overview.svg */,
-				138CA7561AF83ABB00D86F08 /* screenshot.png */,
-				138CA7581AF83ABB00D86F08 /* topic-1.md */,
-				138CA75A1AF83ABB00D86F08 /* topic-2.md */,
-				138CA75C1AF83ABB00D86F08 /* topic-3.md */,
-			);
-			path = _English.lproj;
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		138CA7151AF831CC00D86F08 /* MyApp */ = {
+		136572751C2629CD00A07BB7 /* MyApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 138CA7331AF831CD00D86F08 /* Build configuration list for PBXNativeTarget "MyApp" */;
+			buildConfigurationList = 136572871C2629CD00A07BB7 /* Build configuration list for PBXNativeTarget "MyApp" */;
 			buildPhases = (
-				138CA7121AF831CC00D86F08 /* Sources */,
-				138CA7131AF831CC00D86F08 /* Frameworks */,
-				138CA7141AF831CC00D86F08 /* Resources */,
+				136572721C2629CD00A07BB7 /* Sources */,
+				136572731C2629CD00A07BB7 /* Frameworks */,
+				136572741C2629CD00A07BB7 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				138CA7461AF8339200D86F08 /* PBXTargetDependency */,
+				136572BF1C26FEDF00A07BB7 /* PBXTargetDependency */,
 			);
 			name = MyApp;
 			productName = MyApp;
-			productReference = 138CA7161AF831CC00D86F08 /* MyApp.app */;
+			productReference = 136572761C2629CD00A07BB7 /* MyApp.app */;
 			productType = "com.apple.product-type.application";
-		};
-		138CA7281AF831CD00D86F08 /* MyAppTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 138CA7361AF831CD00D86F08 /* Build configuration list for PBXNativeTarget "MyAppTests" */;
-			buildPhases = (
-				138CA7251AF831CD00D86F08 /* Sources */,
-				138CA7261AF831CD00D86F08 /* Frameworks */,
-				138CA7271AF831CD00D86F08 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				138CA72B1AF831CD00D86F08 /* PBXTargetDependency */,
-			);
-			name = MyAppTests;
-			productName = MyAppTests;
-			productReference = 138CA7291AF831CD00D86F08 /* MyAppTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		138CA73C1AF832B400D86F08 /* MyAppHelp */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 138CA7411AF832B400D86F08 /* Build configuration list for PBXNativeTarget "MyAppHelp" */;
-			buildPhases = (
-				138CA7391AF832B400D86F08 /* Sources */,
-				138CA73A1AF832B400D86F08 /* Frameworks */,
-				138CA73B1AF832B400D86F08 /* Resources */,
-				138CA7441AF8336E00D86F08 /* ShellScript */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = MyAppHelp;
-			productName = MyAppHelp;
-			productReference = 138CA73D1AF832B400D86F08 /* MyAppHelp.help */;
-			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		138CA70E1AF831CC00D86F08 /* Project object */ = {
+		1365726E1C2629CD00A07BB7 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0720;
-				ORGANIZATIONNAME = "Example Co.";
+				ORGANIZATIONNAME = "Example Corp.";
 				TargetAttributes = {
-					138CA7151AF831CC00D86F08 = {
-						CreatedOnToolsVersion = 6.3.1;
-					};
-					138CA7281AF831CD00D86F08 = {
-						CreatedOnToolsVersion = 6.3.1;
-						TestTargetID = 138CA7151AF831CC00D86F08;
-					};
-					138CA73C1AF832B400D86F08 = {
-						CreatedOnToolsVersion = 6.3.1;
+					136572751C2629CD00A07BB7 = {
+						CreatedOnToolsVersion = 7.2;
 					};
 				};
 			};
-			buildConfigurationList = 138CA7111AF831CC00D86F08 /* Build configuration list for PBXProject "MyApp" */;
+			buildConfigurationList = 136572711C2629CD00A07BB7 /* Build configuration list for PBXProject "MyApp" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
-				_English,
 			);
-			mainGroup = 138CA70D1AF831CC00D86F08;
-			productRefGroup = 138CA7171AF831CC00D86F08 /* Products */;
+			mainGroup = 1365726D1C2629CD00A07BB7;
+			productRefGroup = 136572771C2629CD00A07BB7 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 136572B91C26FE9300A07BB7 /* Products */;
+					ProjectRef = 136572B81C26FE9300A07BB7 /* JekyllHelp.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
-				138CA7151AF831CC00D86F08 /* MyApp */,
-				138CA7281AF831CD00D86F08 /* MyAppTests */,
-				138CA73C1AF832B400D86F08 /* MyAppHelp */,
+				136572751C2629CD00A07BB7 /* MyApp */,
 			);
 		};
 /* End PBXProject section */
 
+/* Begin PBXReferenceProxy section */
+		136572BD1C26FE9300A07BB7 /* JekyllHelp.help */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = JekyllHelp.help;
+			remoteRef = 136572BC1C26FE9300A07BB7 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
 /* Begin PBXResourcesBuildPhase section */
-		138CA7141AF831CC00D86F08 /* Resources */ = {
+		136572741C2629CD00A07BB7 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				138CA7211AF831CC00D86F08 /* Images.xcassets in Resources */,
-				138CA7241AF831CC00D86F08 /* MainMenu.xib in Resources */,
-				138CA7471AF8339C00D86F08 /* MyAppHelp.help in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		138CA7271AF831CD00D86F08 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		138CA73B1AF832B400D86F08 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				136572801C2629CD00A07BB7 /* Assets.xcassets in Resources */,
+				136572831C2629CD00A07BB7 /* MainMenu.xib in Resources */,
+				136572C01C26FEFD00A07BB7 /* JekyllHelp.help in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
-/* Begin PBXShellScriptBuildPhase section */
-		138CA7441AF8336E00D86F08 /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "/usr/bin/make -C \"$(dirname \"$PRODUCT_SETTINGS_PATH\")\"";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
-		138CA7121AF831CC00D86F08 /* Sources */ = {
+		136572721C2629CD00A07BB7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				138CA71F1AF831CC00D86F08 /* main.m in Sources */,
-				138CA71D1AF831CC00D86F08 /* AppDelegate.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		138CA7251AF831CD00D86F08 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				138CA7301AF831CD00D86F08 /* MyAppTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		138CA7391AF832B400D86F08 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				1365727E1C2629CD00A07BB7 /* main.m in Sources */,
+				1365727B1C2629CD00A07BB7 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		138CA72B1AF831CD00D86F08 /* PBXTargetDependency */ = {
+		136572BF1C26FEDF00A07BB7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 138CA7151AF831CC00D86F08 /* MyApp */;
-			targetProxy = 138CA72A1AF831CD00D86F08 /* PBXContainerItemProxy */;
-		};
-		138CA7461AF8339200D86F08 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 138CA73C1AF832B400D86F08 /* MyAppHelp */;
-			targetProxy = 138CA7451AF8339200D86F08 /* PBXContainerItemProxy */;
+			name = JekyllHelp;
+			targetProxy = 136572BE1C26FEDF00A07BB7 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		138CA7221AF831CC00D86F08 /* MainMenu.xib */ = {
+		136572811C2629CD00A07BB7 /* MainMenu.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				138CA7231AF831CC00D86F08 /* Base */,
+				136572821C2629CD00A07BB7 /* Base */,
 			);
 			name = MainMenu.xib;
-			sourceTree = "<group>";
-		};
-		138CA74A1AF83ABB00D86F08 /* index.md */ = {
-			isa = PBXVariantGroup;
-			children = (
-				138CA74B1AF83ABB00D86F08 /* _English */,
-			);
-			name = index.md;
-			sourceTree = "<group>";
-		};
-		138CA74C1AF83ABB00D86F08 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				138CA74D1AF83ABB00D86F08 /* _English */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		138CA74E1AF83ABB00D86F08 /* keyboard.md */ = {
-			isa = PBXVariantGroup;
-			children = (
-				138CA74F1AF83ABB00D86F08 /* _English */,
-			);
-			name = keyboard.md;
-			sourceTree = "<group>";
-		};
-		138CA7501AF83ABB00D86F08 /* overview.md */ = {
-			isa = PBXVariantGroup;
-			children = (
-				138CA7511AF83ABB00D86F08 /* _English */,
-			);
-			name = overview.md;
-			sourceTree = "<group>";
-		};
-		138CA7521AF83ABB00D86F08 /* overview.png */ = {
-			isa = PBXVariantGroup;
-			children = (
-				138CA7531AF83ABB00D86F08 /* _English */,
-			);
-			name = overview.png;
-			sourceTree = "<group>";
-		};
-		138CA7541AF83ABB00D86F08 /* overview.svg */ = {
-			isa = PBXVariantGroup;
-			children = (
-				138CA7551AF83ABB00D86F08 /* _English */,
-			);
-			name = overview.svg;
-			sourceTree = "<group>";
-		};
-		138CA7561AF83ABB00D86F08 /* screenshot.png */ = {
-			isa = PBXVariantGroup;
-			children = (
-				138CA7571AF83ABB00D86F08 /* _English */,
-			);
-			name = screenshot.png;
-			sourceTree = "<group>";
-		};
-		138CA7581AF83ABB00D86F08 /* topic-1.md */ = {
-			isa = PBXVariantGroup;
-			children = (
-				138CA7591AF83ABB00D86F08 /* _English */,
-			);
-			name = "topic-1.md";
-			sourceTree = "<group>";
-		};
-		138CA75A1AF83ABB00D86F08 /* topic-2.md */ = {
-			isa = PBXVariantGroup;
-			children = (
-				138CA75B1AF83ABB00D86F08 /* _English */,
-			);
-			name = "topic-2.md";
-			sourceTree = "<group>";
-		};
-		138CA75C1AF83ABB00D86F08 /* topic-3.md */ = {
-			isa = PBXVariantGroup;
-			children = (
-				138CA75D1AF83ABB00D86F08 /* _English */,
-			);
-			name = "topic-3.md";
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		138CA7311AF831CD00D86F08 /* Debug */ = {
+		136572851C2629CD00A07BB7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -479,21 +243,20 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
 			};
 			name = Debug;
 		};
-		138CA7321AF831CD00D86F08 /* Release */ = {
+		136572861C2629CD00A07BB7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -523,144 +286,60 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = macosx;
 			};
 			name = Release;
 		};
-		138CA7341AF831CD00D86F08 /* Debug */ = {
+		136572881C2629CD00A07BB7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = MyApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.example.$(PRODUCT_NAME:rfc1034identifier)";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.MyApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
-		138CA7351AF831CD00D86F08 /* Release */ = {
+		136572891C2629CD00A07BB7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = MyApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.example.$(PRODUCT_NAME:rfc1034identifier)";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.MyApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
-		138CA7371AF831CD00D86F08 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				COMBINE_HIDPI_IMAGES = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = MyAppTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyApp.app/Contents/MacOS/MyApp";
-			};
-			name = Debug;
-		};
-		138CA7381AF831CD00D86F08 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				COMBINE_HIDPI_IMAGES = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = MyAppTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyApp.app/Contents/MacOS/MyApp";
-			};
-			name = Release;
-		};
-		138CA7421AF832B400D86F08 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = MyAppHelp/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.example.$(PROJECT_NAME:rfc1034identifier).help";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = help;
-			};
-			name = Debug;
-		};
-		138CA7431AF832B400D86F08 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = MyAppHelp/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.example.$(PROJECT_NAME:rfc1034identifier).help";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = help;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		138CA7111AF831CC00D86F08 /* Build configuration list for PBXProject "MyApp" */ = {
+		136572711C2629CD00A07BB7 /* Build configuration list for PBXProject "MyApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				138CA7311AF831CD00D86F08 /* Debug */,
-				138CA7321AF831CD00D86F08 /* Release */,
+				136572851C2629CD00A07BB7 /* Debug */,
+				136572861C2629CD00A07BB7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		138CA7331AF831CD00D86F08 /* Build configuration list for PBXNativeTarget "MyApp" */ = {
+		136572871C2629CD00A07BB7 /* Build configuration list for PBXNativeTarget "MyApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				138CA7341AF831CD00D86F08 /* Debug */,
-				138CA7351AF831CD00D86F08 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		138CA7361AF831CD00D86F08 /* Build configuration list for PBXNativeTarget "MyAppTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				138CA7371AF831CD00D86F08 /* Debug */,
-				138CA7381AF831CD00D86F08 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		138CA7411AF832B400D86F08 /* Build configuration list for PBXNativeTarget "MyAppHelp" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				138CA7421AF832B400D86F08 /* Debug */,
-				138CA7431AF832B400D86F08 /* Release */,
+				136572881C2629CD00A07BB7 /* Debug */,
+				136572891C2629CD00A07BB7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 138CA70E1AF831CC00D86F08 /* Project object */;
+	rootObject = 1365726E1C2629CD00A07BB7 /* Project object */;
 }

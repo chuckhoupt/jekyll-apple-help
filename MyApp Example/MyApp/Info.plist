@@ -7,9 +7,9 @@
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleHelpBookFolder</key>
-	<string>$(PROJECT_NAME)Help.help</string>
+	<string>JekyllHelp.help</string>
 	<key>CFBundleHelpBookName</key>
-	<string>com.mycompany.$(PROJECT_NAME:rfc1034identifier).help</string>
+	<string>com.example.JekyllHelp.help</string>
 	<key>CFBundleIconFile</key>
 	<string></string>
 	<key>CFBundleIdentifier</key>
@@ -29,7 +29,7 @@
 	<key>LSMinimumSystemVersion</key>
 	<string>$(MACOSX_DEPLOYMENT_TARGET)</string>
 	<key>NSHumanReadableCopyright</key>
-	<string>Copyright © 2015 Example Co. All rights reserved.</string>
+	<string>Copyright © 2015 Example Corp. All rights reserved.</string>
 	<key>NSMainNibFile</key>
 	<string>MainMenu</string>
 	<key>NSPrincipalClass</key>
