@@ -5,11 +5,11 @@
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleIdentifier</key>
-	<string>com.example.$(PROJECT_NAME:rfc1034identifier).help</string>
+	<string>com.example.JekyllHelp.help</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
-	<string>$(PROJECT_NAME)Help</string>
+	<string>JekyllHelp</string>
 	<key>CFBundlePackageType</key>
 	<string>BNDL</string>
 	<key>CFBundleShortVersionString</key>
@@ -25,7 +25,7 @@
 	<key>HPDBookIndexPath</key>
 	<string>search.helpindex</string>
 	<key>HPDBookTitle</key>
-	<string>$(PROJECT_NAME) Help</string>
+	<string>JekyllHelp Help</string>
 	<key>HPDBookType</key>
 	<string>3</string>
 </dict>

@@ -1,0 +1,209 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXFileReference section */
+		1365725D1C26230700A07BB7 /* JekyllHelp.help */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JekyllHelp.help; sourceTree = BUILT_PRODUCTS_DIR; };
+		1365726B1C26280C00A07BB7 /* book-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "book-icon.png"; sourceTree = "<group>"; };
+		136572A51C26EBA000A07BB7 /* _English.lproj */ = {isa = PBXFileReference; lastKnownFileType = folder; path = _English.lproj; sourceTree = "<group>"; };
+		136572A71C26EBBA00A07BB7 /* Help-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Help-Info.plist"; sourceTree = "<group>"; };
+		136572A91C26EC1000A07BB7 /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		136572AA1C26EC1B00A07BB7 /* _config.yml */ = {isa = PBXFileReference; lastKnownFileType = text; path = _config.yml; sourceTree = "<group>"; };
+		136572AB1C26EC4600A07BB7 /* jekyll-server.command */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = "jekyll-server.command"; sourceTree = "<group>"; };
+		136572AC1C26EC6100A07BB7 /* _includes */ = {isa = PBXFileReference; lastKnownFileType = folder; path = _includes; sourceTree = "<group>"; };
+		136572AD1C26EC6B00A07BB7 /* _layouts */ = {isa = PBXFileReference; lastKnownFileType = folder; path = _layouts; sourceTree = "<group>"; };
+		136572AE1C26EC7200A07BB7 /* _plugins */ = {isa = PBXFileReference; lastKnownFileType = folder; path = _plugins; sourceTree = "<group>"; };
+		136572AF1C26EC7A00A07BB7 /* _sass */ = {isa = PBXFileReference; lastKnownFileType = folder; path = _sass; sourceTree = "<group>"; };
+		136572B01C26EC8400A07BB7 /* css */ = {isa = PBXFileReference; lastKnownFileType = folder; path = css; sourceTree = "<group>"; };
+		136572B11C26EC9500A07BB7 /* nav.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = nav.js; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		136572521C2622D000A07BB7 = {
+			isa = PBXGroup;
+			children = (
+				136572A71C26EBBA00A07BB7 /* Help-Info.plist */,
+				1365726B1C26280C00A07BB7 /* book-icon.png */,
+				136572A51C26EBA000A07BB7 /* _English.lproj */,
+				136572AB1C26EC4600A07BB7 /* jekyll-server.command */,
+				136572A41C26EB8400A07BB7 /* JekyllHelp Support Files */,
+				1365725E1C26230700A07BB7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1365725E1C26230700A07BB7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1365725D1C26230700A07BB7 /* JekyllHelp.help */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		136572A41C26EB8400A07BB7 /* JekyllHelp Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				136572A91C26EC1000A07BB7 /* Makefile */,
+				136572AA1C26EC1B00A07BB7 /* _config.yml */,
+				136572AE1C26EC7200A07BB7 /* _plugins */,
+				136572AD1C26EC6B00A07BB7 /* _layouts */,
+				136572AC1C26EC6100A07BB7 /* _includes */,
+				136572AF1C26EC7A00A07BB7 /* _sass */,
+				136572B01C26EC8400A07BB7 /* css */,
+				136572B11C26EC9500A07BB7 /* nav.js */,
+			);
+			name = "JekyllHelp Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1365725C1C26230700A07BB7 /* JekyllHelp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 136572611C26230700A07BB7 /* Build configuration list for PBXNativeTarget "JekyllHelp" */;
+			buildPhases = (
+				1365725B1C26230700A07BB7 /* Resources */,
+				136572661C26267700A07BB7 /* Run Script */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JekyllHelp;
+			productName = JekyllHelp;
+			productReference = 1365725D1C26230700A07BB7 /* JekyllHelp.help */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		136572531C2622D000A07BB7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				TargetAttributes = {
+					1365725C1C26230700A07BB7 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = 136572561C2622D000A07BB7 /* Build configuration list for PBXProject "JekyllHelp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 136572521C2622D000A07BB7;
+			productRefGroup = 1365725E1C26230700A07BB7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1365725C1C26230700A07BB7 /* JekyllHelp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1365725B1C26230700A07BB7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		136572661C26267700A07BB7 /* Run Script */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Run Script";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/bin/make -C \"$(dirname \"$PRODUCT_SETTINGS_PATH\")\"";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		136572581C2622D000A07BB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+		136572631C26230700A07BB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "Help-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.JekyllHelp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = help;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		136572561C2622D000A07BB7 /* Build configuration list for PBXProject "JekyllHelp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				136572581C2622D000A07BB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		136572611C26230700A07BB7 /* Build configuration list for PBXNativeTarget "JekyllHelp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				136572631C26230700A07BB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 136572531C2622D000A07BB7 /* Project object */;
+}
