@@ -9,7 +9,7 @@
 	<key>CFBundleHelpBookFolder</key>
 	<string>$(PROJECT_NAME)Help.help</string>
 	<key>CFBundleHelpBookName</key>
-	<string>com.mycompany.$(PROJECT_NAME:rfc1034identifier).help</string>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER).help</string>
 	<key>CFBundleIconFile</key>
 	<string></string>
 	<key>CFBundleIdentifier</key>
