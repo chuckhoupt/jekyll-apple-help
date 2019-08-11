@@ -13,7 +13,7 @@ This is the Jekyll Apple Help template. This overview has some markdown samples.
 ## Links
 
 - [Normal Link to topic-1, "Do Something"](topic-1.html)
-- [Help anchor-link to the index page anchor, "title-page"](help:anchor=title-page+{{ site.bookid }})
+- [Help anchor-link to the index page anchor, "title-page"](help:anchor=title-page+bookID={{ site.bookid }})
 - [Help openbook-link to Apple's Mac Help](help:openbook=com.apple.machelp)
 - <!-- Note use of + for space. Alternatively use %20 -->
   [Help anchor-link to Safari's keyboard shortcuts](help:anchor=cpsh003+bookID=com.apple.safari.help)
