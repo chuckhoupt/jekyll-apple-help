@@ -20,8 +20,8 @@ Now the page looks/works the same as in HelpViewer (except for responsive styles
 
 // Base variable defaults, which can be overridden
 
-$base-font-family: HelveticaNeue, 'Helvetica Neue', Helvetica, sans-serif !default;;
-$base-font-size:   12px !default;
+$base-font-family: HelveticaNeue, 'Helvetica Neue', Helvetica, sans-serif !default;
+$base-font-size:   13px !default;
 $small-font-size:  $base-font-size * 0.875 !default;
 $base-line-height: 1.5 !default;
 
@@ -68,7 +68,7 @@ header.banner {
 	overflow-y: auto;
 	border-right: 1px solid $grey-color-light;
 	z-index: 1;
-	background-color: white;
+	background-color: #E7E7E7;
 
 	@media print {
 		display: none;
@@ -174,7 +174,7 @@ nav#menu {
 	li {
 		line-height: 17px;
 		&.active {
-			background-color: rgb(242, 242, 242);
+			background-color: #C7C7C7;
 		}
 		&.group::before {
 			position: absolute;
