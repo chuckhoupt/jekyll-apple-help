@@ -124,7 +124,7 @@ JekyllHelp's [`Makefile`](JekyllHelp/Makefile) will generate a help index for ev
 
 ## Apps that use Jekyll-Apple-Help
 
-[CleanMyMac 3](http://macpaw.com/cleanmymac)
+[CleanMyMac 3](http://macpaw.com/cleanmymac) | [🇺🇦 #StandWithUkraine](https://macpaw.com/news/macpaw-amidst-aggression)
 
 [Flinto For Mac](https://www.flinto.com/mac)
 
