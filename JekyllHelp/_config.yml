@@ -4,6 +4,8 @@ apple_help: true  # Flag for conditional markup, if needed.
 # Build settings
 markdown: kramdown
 
+bookid: com.example.myapp.help
+
 # Localization collections for Help topics. Add more languages as needed.
 collections:
   English.lproj:
