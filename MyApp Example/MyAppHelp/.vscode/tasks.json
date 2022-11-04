@@ -1,0 +1,43 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "start-debug",
+            "command": "bundle",
+            "args": [
+               "exec", "rdebug-ide",
+                  "--host", "0.0.0.0",
+                  "--port", "1234",
+                  "--dispatcher-port", "26162",
+                  "--",
+                  "/usr/local/bin/jekyll", "serve",
+                      "--livereload_port", "35721",
+                      "--force_polling",
+                      "--host", "0.0.0.0",
+                      "--incremental",
+                      "--livereload",
+                      "--port", "4001",
+                      "--future",
+                      "--drafts",
+                      "--unpublished",
+            ],
+            "isBackground": true,
+            "presentation": {
+                "panel": "new"
+            },
+            "problemMatcher": {
+                "owner": "custom",
+                "pattern": {
+                    "regexp": "____"
+                },
+                "background": {
+                    "activeOnStart": true,
+                    "beginsPattern": "____",
+                    "endsPattern": "Fast Debugger"
+                }
+            }
+        }
+    ]
+  }
