@@ -3,12 +3,12 @@
 	Apple Help's hiutil doesn't index text inside NAV elements, however it only applies to immediate text (a bug?).
 	Thus, all text inside this NAV section is also tightly wrapped with NAVs to prevent indexing.
 	{% endcomment %}
-	<nav id="menu" class="dynamic">
+	<nav id="menu" class="dynamic" role="navigation" aria-hidden>
 		{% assign title_page = site[page.collection] | has: "group_order" | first %}
 		{% assign topics_tree = site[page.collection] | tree_by_with_prop_lookup: "group", "order", title_page.group_order | stable_sort: "order" %}
 		<ul>
 		{% for node in topics_tree %}
-			{% if node.name %}
+			{% if node.items %}
 				{% assign sorted_topics = node.items | sort: "order" %}
 				<li class="group">
 					<a name="name"><nav>{{ node.name }}</nav></a>

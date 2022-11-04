@@ -257,6 +257,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 				_English,
@@ -312,7 +313,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "/usr/bin/make -C \"$(dirname \"$PRODUCT_SETTINGS_PATH\")\"";
+			shellScript = "/usr/bin/make -C \"$(dirname \"$PRODUCT_SETTINGS_PATH\")\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */

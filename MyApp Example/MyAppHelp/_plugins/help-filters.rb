@@ -31,11 +31,11 @@ module Jekyll
 				end.inject([]) do |memo, i|
 					if i.first == ""
 						memo + i.last
-						else
+					else
 						memo << {"name" => i.first, "items" => i.last, newprop => (lookup[i.first] || 0) }
 					end
 				end
-				else
+			else
 				input
 			end
 		end
